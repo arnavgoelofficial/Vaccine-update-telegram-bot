@@ -75,7 +75,6 @@ def check(update , context):
                     update.message.reply_text(f"No slot found for the term {SEARCH_WORD} in Pin:{PINCODE}")
             else:
                 update.message.reply_text(f"No sessions found for  Pin:{PINCODE}")
-            
         else:
             update.message.reply_text("[+]Request was not successful!")
 
